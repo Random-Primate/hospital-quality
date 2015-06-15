@@ -7,11 +7,43 @@ Repos: CRAN=http://cran.rstudio.com,
     BioCexp=http://bioconductor.org/packages/3.2/data/experiment,
     BioCextra=http://bioconductor.org/packages/3.2/extra
 
+Package: RCurl
+Source: CRAN
+Version: 1.95-4.6
+Hash: f07380ac0925611455ecf9dcdb8be545
+Requires: bitops
+
+Package: bitops
+Source: CRAN
+Version: 1.0-6
+Hash: 67d0775189fd0041d95abca618c5c07e
+
+Package: digest
+Source: CRAN
+Version: 0.6.8
+Hash: de202f956596a476d09304e3a2ebf1e5
+
+Package: magrittr
+Source: CRAN
+Version: 1.5
+Hash: bdc4d48c3135e8f3b399536ddf160df4
+
 Package: packrat
 Source: github
 Version: 0.4.3-25
+Hash: 145364480ae13dd1b65c21fd871819526caef59f
 GithubRepo: packrat
 GithubUsername: rstudio
 GithubRef: master
 GithubSha1: 145364480ae13dd1b65c21fd871819526caef59f
-Hash: 145364480ae13dd1b65c21fd871819526caef59f
+
+Package: stringi
+Source: CRAN
+Version: 0.4-1
+Hash: 5f5be3e0eaf1ce0228196e80c47b0ab3
+
+Package: stringr
+Source: CRAN
+Version: 1.0.0
+Hash: 2676dd5f88890910962b733b0f9540e1
+Requires: magrittr, stringi
